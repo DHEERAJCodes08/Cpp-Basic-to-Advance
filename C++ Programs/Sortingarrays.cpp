@@ -9,7 +9,7 @@ int main(){
     int n;===============================================
     cout<<"Enter the Size of Array";
     cin>>n;
-    int A[n];
+    int A[n],i,j;
     cout<<"Enter the elements in the Array ::";
     for(int i=0;i<n;i++){
         cin>>A[i];
@@ -51,7 +51,7 @@ int main(){
     int n;
     cout<<"Enter the Size of the Array:: ";
     cin>>n;
-    int A[n];
+    int A[n],i,j;
     cout<<"Enter the Elements in the Array :: ";
     for(int i=0;i<n;i++){
         cin>>A[i];
